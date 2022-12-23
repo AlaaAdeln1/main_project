@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --main--:#0061ff;
+}
+header{
+    height: 100px;
+    text-align: center;
+    padding-top: 10px;
+}
+header img{
+    width: 98px;
+    height: auto;
+    border-radius: 5px;
+    position: absolute;
+    top: -3px;
+    left: 32em;
+}
+header h3{
+    color: var(--main--);
+    font-size: 30px;
+}
+header h1{
+    color: red;
+    position: absolute;
+    top: 1em;
+    left: 25em;
+}
+header h1 span {
+    color: var(--main--);
+}
+.inputs{
+    width: calc(80vw - 20px);
+    margin-left: 70px;
+    height: 20em;
+}
+.title{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 3px solid #009688;
+    padding: 5px;
+    border-radius: 10px;
+}
+.price,.taxes,.abs,.count,.cateogry,.discount{
+    border: 3px solid #009688;
+    padding: 5px;
+    border-radius: 10px;
+    width: 215px;
+}
+.total{
+    font-size: 20px;
+    padding: 10px;
+}
+.count{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.cateogry{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.btn-create{
+    width: 100%;
+    border-radius: 10px;
+    background: #8bc34a;
+    border: 2px solid transparent;
+    color: #fff;
+    font-size: 25px;
+    height: 45px;
+}
+.btn-create:hover{
+    background: red;
+    color: #fff;
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+.output{
+    width: calc(80vw - 20px);
+    margin-left: 70px;
+    height: auto;
+}
+.input-search{
+    width: 100%;
+    margin-bottom: 10px;
+    border: 3px solid #009688;
+    padding: 5px;
+    font-size: 25px;
+    height: 50px;
+    border-radius: 10px
+}
+.input-search:focus{
+    background-color: #444;
+    color: #fff;
+}
+
+#searchTitle,#searchCateogry{
+    width: 200px;
+    border-radius: 10px;
+    background: #00f;
+    border: 2px solid transparent;
+    color: #fff;
+}
+#searchCateogry{
+    font-size: 25px;
+    width: 365px;
+    height: 50px;
+    margin-left: 137px;
+}
+#searchTitle{
+    margin-right: 200px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    width: 365px;
+    height: 50px;
+}
+.delete-all{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    background: #00f;
+    border: 2px solid transparent;
+    color: #fff;
+}
+#search-by-cateogry:hover{
+    background: red;
+    color: #fff;
+    transition: 0.5s;
+}
+#search-by-title:hover{
+    background: red;
+    color: #fff;
+    transition: 0.5s;
+}
+.delete-all:hover{
+    background: red;
+    color: #fff;
+    transition: 0.5s;
+}
+input{
+    outline: none;
+    height: 40px;
+    font-size: 20px;
+}
+
+table tr th{
+    text-transform: uppercase;
+    margin-right: 10px;
+    padding: 5px;
+}
+table tr{
+    text-align: center;
+}
+table tbody td .update{
+    width: 95px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 19px;
+    background: #00f;
+    border: 2px solid transparent;
+    color: #fff;
+}
+table tbody td .update:hover{
+    background: red;
+    color: #fff;
+    transition: 0.5s;
+}
+table tbody td .delete{
+    width: 95px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 19px;
+    background: #00f;
+    border: 2px solid transparent;
+    color: #fff;
+}
+table tbody td .delete:hover{
+    background: red;
+    color: #fff;
+    transition: 0.5s;
+}
+small{
+    background-color: rgb(0, 26, 255);
+    color: #fff;
+    padding: 5px;
+}
+small::before{
+    content: "Total : ";
+}
+button{
+    cursor: pointer;
+}
+table{
+    height: auto;
+    font-size: 20px;
+    margin-left: 45px;
+    padding: 0px;
+    letter-spacing: 4px;
+    margin-top: 6px;
+}
+/* #tbody tr td{
+    background: green;
+    color: #fff;
+} */
